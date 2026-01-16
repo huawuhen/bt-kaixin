@@ -8,17 +8,24 @@ apt-get install -y xz-utils openssl gawk file wget screen && screen -S os
 ```
 
 ## 开心版系列
+开心版11.6
+```
+wget -O install.sh https://raw.githubusercontent.com/huawuhen/bt-kaixin/main/install-11.6.sh && bash install.sh
+```
 开心版11.0
 ```
 curl -sSO https://raw.githubusercontent.com/huawuhen/bt-kaixin/main/install_latest.sh && bash install_latest.sh
-
+```
+开心版8.0
+```
+wget -O install.sh https://raw.githubusercontent.com/huawuhen/bt-kaixin/main/install-8.sh && bash install.sh
 ```
 开心版7.7
 ```
 curl -sSO https://raw.githubusercontent.com/huawuhen/bt-kaixin/main/one_key_happy.sh && bash one_key_happy.sh
 ```
 
-### 版本升级
+### 升级到14
 ```
 curl https://io.bt.sb/install/update_panel.sh|bash -s -- 11.4.1
 ```
@@ -30,3 +37,5 @@ curl https://io.bt.sb/install/update_panel.sh|bash -s -- 11.4.1
 wget -N --no-check-certificate https://raw.githubusercontent.com/huawuhen/bt-kaixin/main/LocaleCN.sh && bash LocaleCN.sh
 ```
 
+- [baotsbs](https://baota.sbs/)
+- [btsb](https://bt.sb/bbs/forum-37-1.html)
