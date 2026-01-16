@@ -1,9 +1,9 @@
 # 前言
 宝塔面板自7.8开始，违背了宝塔开源协议，竟然在免费版的源码里面加入了加密的授权验证模块。除此之外，7.8版本使用各种方法均无法绕过面板强制绑定账号，如果不绑定账号插件就无法下载。
 
-安装时如果报错，请先部署环境后再重新安装（此处以Debian系统为例，其他系统参照）
+安装前，请先部署环境后再重新安装（此处以Debian系统为例，其他系统参照）
 ```
-apt update -y && apt dist-upgrade -y && apt install -y curl && apt install -y socat 
+apt update -y && apt dist-upgrade -y && apt install -y curl && apt install ufw -y && apt install -y socat 
 apt-get install -y xz-utils openssl gawk file wget screen && screen -S os
 ```
 
